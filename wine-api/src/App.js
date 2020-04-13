@@ -98,8 +98,6 @@ class App extends React.Component {
                 <ButtonsModal value={wine} />
 
               </ul>
-              {/* <button value={this.state.wines.id} onClick={console.log('button clicked')}>TEST</button> */}
-              {/* <ButtonsModal wines={this.state.wines} /> */}
 
             </div>
 
@@ -118,9 +116,9 @@ class App extends React.Component {
 export default App;
 
 /*
-* Render the wines in the webpage.
-* When someone clicks a wine display information of that single wine in the webpage. HTTP GET method.
+* Render the wines in the webpage. - DONE!
+* When someone clicks a wine display information of that single wine in the webpage. HTTP GET method. - DONE!
 * Make a form to create new wines. HTTP POST method.
 * Make an option to delete a chosen wine. - HTTP DELETE method.
-* Your app has to use React and Axios
+* Your app has to use React and Axios - Complete!
 */

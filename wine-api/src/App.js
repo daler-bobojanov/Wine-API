@@ -51,6 +51,7 @@ class App extends React.Component {
         price: e.target.elements.price.value
       }
       const response = await axios.post('http://myapi-profstream.herokuapp.com/api/b6fbb2/wines', newWine);
+      return response;
       // console.log(response.data);
     } catch (e) {
       console.error(e);
@@ -61,7 +62,7 @@ class App extends React.Component {
     // e.preventDefault();
     try {
       const res = await axios.delete(`http://myapi-profstream.herokuapp.com/api/b6fbb2/wines/${e.target.elements.wineId.value}`)
-
+      return res;
       // console.log(res);
     } catch (e) {
       console.error(e);

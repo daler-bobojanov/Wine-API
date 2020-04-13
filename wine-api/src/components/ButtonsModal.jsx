@@ -13,6 +13,8 @@ const ButtonsModal = (props) => {
             <button className='modal-button' onClick={() => setmodalIsOpen(true)}>More Information</button>
             <Modal
                 className='modal'
+                overlayClassName='modal-overlay'
+                bodyOpenClassName='modal-open'
                 isOpen={modalIsOpen}
                 onRequestClose={() => setmodalIsOpen(false)}
                 style={

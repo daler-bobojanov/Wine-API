@@ -25,14 +25,14 @@ const ButtonsModal = (props) => {
                             left: 70,
                             right: 70,
                             bottom: 70,
-                            backgroundColor: 'rgba(255, 255, 255, 0.95)'
+                            backgroundColor: 'rgba(255, 255, 255, 0.85)'
                         },
                         content: {
                             position: 'absolute',
-                            top: '40px',
-                            left: '40px',
-                            right: '40px',
-                            bottom: '40px',
+                            top: '70px',
+                            left: '70px',
+                            right: '70px',
+                            bottom: '70px',
                             border: '2px solid #ccc',
                             background: '#fff',
                             overflow: 'auto',
@@ -44,7 +44,7 @@ const ButtonsModal = (props) => {
                     }
                 }
             >
-                <div style={{ display: 'flex' }}>
+                <div style={{ display: 'flex', paddingTop: '40px' }}>
                     <img src={props.value.picture} alt='' />
                     <ul>
                         <li>Wine Name: {props.value.name}</li>

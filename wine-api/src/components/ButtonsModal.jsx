@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 
-
 Modal.setAppElement('#root')
 
 const ButtonsModal = (props) => {
@@ -30,8 +29,8 @@ const ButtonsModal = (props) => {
                         content: {
                             position: 'absolute',
                             top: '70px',
-                            left: '70px',
-                            right: '70px',
+                            left: '50px',
+                            right: '50px',
                             bottom: '70px',
                             border: '2px solid #ccc',
                             background: '#fff',
@@ -63,7 +62,7 @@ const ButtonsModal = (props) => {
                     </ul>
                     <div>
 
-                        <button onClick={() => setmodalIsOpen(false)} style={{ fontSize: '1.5em' }}>X</button>
+                        <button onClick={() => setmodalIsOpen(false)} style={{ fontSize: '1.5em' }}>Close</button>
                     </div>
                 </div>
             </Modal>

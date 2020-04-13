@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import axios from 'axios';
 
+import ButtonsModal from './components/ButtonsModal';
+import WineForm from './components/WineForm';
+
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +20,7 @@ class App extends React.Component {
       // picture: undefined,
       // price: undefined,
       wines: [],
-      winePictures: []
+      // winePictures: []
     }
   }
 
@@ -64,10 +67,20 @@ class App extends React.Component {
       console.error(e);
     }
   }
+
+  //   function buttonClicked(e){
+  // e.preventDefault();
+
+  //   }
   render() {
     return (
       <div>
-        <header>Wine API</header>
+        <div className='container'>
+          <header className='main-header'>
+            Wine API
+          </header>
+          <WineForm />
+        </div>
 
         <div className='wrapper'>
 
@@ -78,16 +91,26 @@ class App extends React.Component {
                 <li>
                   <img className='picture' key={wine.id} src={wine.picture} alt='different kinds of wine bottles' />
                 </li>
+
                 <li key={wine.id}>
                   {wine.name}
                 </li>
+                <ButtonsModal value={wine} />
+
               </ul>
+              {/* <button value={this.state.wines.id} onClick={console.log('button clicked')}>TEST</button> */}
+              {/* <ButtonsModal wines={this.state.wines} /> */}
+
             </div>
+
           ))}
 
         </div>
+
         <footer><h5>2020 &copy; Daler Bobojanov</h5></footer>
+
       </div>
+
     );
   }
 }

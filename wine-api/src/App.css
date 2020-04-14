@@ -93,6 +93,7 @@ img {
 .wine-form__h4{
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 10px;
 }
 input{
   font-size: 0.8em;
@@ -100,10 +101,16 @@ input{
   width: 30%;
   margin-left: 10px;
   padding-left: 5px;
+  border: 1px lightslategrey solid;
 }
 .wine-form__btn{
+  border: 1px white solid;
+  background-color: rgb(26, 20, 20);
+  letter-spacing: 0.9em;
+  box-shadow: 10px 5px 5px red;;
   font-size: 1.1em;
-  font: bolder;
+  font-weight: bolder;
+  color: white;
   text-transform: uppercase;
   margin-top: 20px;
 }
@@ -112,6 +119,16 @@ input{
   color: red;
   opacity: 1; /* Firefox */
 }
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: red;
+}
+input:focus {
+  border-color: black;
+}
+
 /* @media {
 
 } */

@@ -20,16 +20,16 @@ const WineForm = (props) => {
                         overlay: {
                             position: 'fixed',
                             top: 70,
-                            left: 70,
-                            right: 70,
+                            left: 20,
+                            right: 20,
                             bottom: 70,
                             backgroundColor: 'rgba(255, 255, 255, 0.95)'
                         },
                         content: {
                             position: 'absolute',
                             top: '40px',
-                            left: '40px',
-                            right: '40px',
+                            left: '300px',
+                            right: '300px',
                             bottom: '40px',
                             border: '2px solid #ccc',
                             background: '#fff',

@@ -21,17 +21,17 @@ const ButtonsModal = (props) => {
                         overlay: {
                             position: 'fixed',
                             top: 70,
-                            left: 70,
-                            right: 70,
+                            left: 20,
+                            right: 20,
                             bottom: 70,
                             backgroundColor: 'rgba(255, 255, 255, 0.85)'
                         },
                         content: {
                             position: 'absolute',
-                            top: '70px',
-                            left: '50px',
-                            right: '50px',
-                            bottom: '70px',
+                            top: '40px',
+                            left: '300px',
+                            right: '300px',
+                            bottom: '40px',
                             border: '2px solid #ccc',
                             background: '#fff',
                             overflow: 'auto',
@@ -43,30 +43,35 @@ const ButtonsModal = (props) => {
                     }
                 }
             >
-                <div style={{ display: 'flex', paddingTop: '40px' }}>
-                    <img src={props.value.picture} alt='' />
-                    <ul>
-                        <li>Wine Name: {props.value.name}</li>
-                        <br></br>
-                        <li>Year: {props.value.year}</li>
-                        <br></br>
-                        <li>Grapes: {props.value.grapes}</li>
-                        <br></br>
-                        <li>Country: {props.value.country}</li>
-                        <br></br>
-                        <li>Region: {props.value.region}</li>
-                        <br></br>
-                        <li>Description: {props.value.description}</li>
-                        <br></br>
-                        <li>Price:$ {props.value.price}</li>
-                    </ul>
-                    <div>
-
-                        <button onClick={() => setmodalIsOpen(false)} style={{ fontSize: '1.5em' }}>Close</button>
+                <div style={{ display: 'grid', gridTemplateColumns: '30% 60% 10%' }}>
+                    <div style={{ paddingTop: '40px' }}>
+                        <img src={props.value.picture} alt='' />
                     </div>
+
+                    <div style={{ paddingTop: '40px' }}>
+                        <ul>
+                            <li>Wine Name: {props.value.name}</li>
+                            <br></br>
+                            <li>Year: {props.value.year}</li>
+                            <br></br>
+                            <li>Grapes: {props.value.grapes}</li>
+                            <br></br>
+                            <li>Country: {props.value.country}</li>
+                            <br></br>
+                            <li>Region: {props.value.region}</li>
+                            <br></br>
+                            <li>Description: {props.value.description}</li>
+                            <br></br>
+                            <li>Price:$ {props.value.price}</li>
+                        </ul>
+                    </div>
+
+                    <div style={{ paddingLeft: '40px' }}>
+                        <button onClick={() => setmodalIsOpen(false)} style={{ fontSize: '1.5em', border: '1px gray solid', padding: '2px' }}>X</button>
+                    </div>
+
                 </div>
             </Modal>
-
         </div >
     );
 }

@@ -29,6 +29,7 @@ class App extends React.Component {
   async getWines() {
     try {
       const api_call = await axios.get('http://myapi-profstream.herokuapp.com/api/b6fbb2/wines');
+      // console.log(api_call.data)
       this.setState({
         wines: api_call.data,
       })
@@ -83,7 +84,8 @@ class App extends React.Component {
         <div className='wrapper'>
 
           {this.state.wines.map((wine) => (
-            <div className='child' key={wine.id}>
+
+            < div className='child' key={wine.id} >
 
               <ul>
                 <li>
@@ -102,7 +104,7 @@ class App extends React.Component {
           ))}
         </div>
         <footer><h5>2020 &copy; Daler Bobojanov</h5></footer>
-      </div>
+      </div >
     );
   }
 }

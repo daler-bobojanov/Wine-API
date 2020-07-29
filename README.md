@@ -1,5 +1,12 @@
 # Rendering information and HTTP methods - "Wine API"
 
+## Publicly Deployed Website:
+### [Wine API](http://)
+
+## *Which 3rd party API I used?*
+- "http://myapi-profstream.herokuapp.com/" - Sandbox APIs to test apps with.
+
+
 ## _Objectives:_
 
 * Render the wines in the webpage.

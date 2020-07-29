@@ -1,6 +1,6 @@
 # Rendering information and HTTP methods - "Wine API"
 
-## Publicly Deployed Website:
+## _Publicly Deployed Website:_
 ### [Wine API](http://)
 
 ## *Which 3rd party API I used?*

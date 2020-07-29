@@ -1,4 +1,4 @@
-# Rendering information and HTTP methods - Wine API
+# Rendering information and HTTP methods - "Wine API"
 
 ## _Objectives:_
 

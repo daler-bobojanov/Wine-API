@@ -29,7 +29,8 @@ class App extends React.Component {
   async getWines() {
     try {
       const api_call = await axios.get('http://myapi-profstream.herokuapp.com/api/b6fbb2/wines');
-      // console.log(api_call.data)
+      console.log(api_call.data)
+      console.log(this.state.wines.length, "State")  
       this.setState({
         wines: api_call.data,
       })

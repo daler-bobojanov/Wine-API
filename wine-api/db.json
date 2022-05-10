@@ -1,0 +1,26 @@
+{
+    "wines": [
+        {
+            "id": "1",
+            "name": "Bonanza Wine Cabernet Sauvignon",
+            "year": "No Vintage",
+            "grapes": "Cabernet Sauvignon",
+            "country": "United States",
+            "region": "California",
+            "price": "25.00",
+            "picture": "https://cdn.shopify.com/s/files/1/0113/3314/0561/products/Bonanza_Wine_Cabernet_Sauvignon_Lot_1_1_1_1_500x.jpg?v=1603744141",
+            "description": "A new California Caymus Cabernet Sauvignon, Bonanza wine is produced by the owner and winemaker of Caymus Vineyards, Chuck Wagner. It reflects the \"bonanza\" of the great state of California - and bonanza calls back to the discovery of land where delicious Cabernet can be farmed. Medium ruby-red, this wine opens with scents of currants and dried roses, grape pomace, and fresh tilled soil.\n Bonanza red wine features flavors of blueberries and blackberries, vanilla and toasted bread, along with aromas and flavors including cocoa cassis. The nose is nuanced with toasty oak imparting a subtle smoked meat character and a taste of unsweetened chocolate and cassis that mix with the warmth of vanilla. Silky tannins and striking smoothness roll across the mouth."
+        },
+        {
+            "id": "2",
+            "name": "Bonanza Wine Cabernet Sauvignon",
+            "year": "No Vintage",
+            "grapes": "Cabernet Sauvignon",
+            "country": "United States",
+            "region": "California",
+            "price": "25.00",
+            "picture": "https://cdn.shopify.com/s/files/1/0113/3314/0561/products/Bonanza_Wine_Cabernet_Sauvignon_Lot_1_1_1_1_500x.jpg?v=1603744141",
+            "description": "A new California Caymus Cabernet Sauvignon, Bonanza wine is produced by the owner and winemaker of Caymus Vineyards, Chuck Wagner. It reflects the \"bonanza\" of the great state of California - and bonanza calls back to the discovery of land where delicious Cabernet can be farmed. Medium ruby-red, this wine opens with scents of currants and dried roses, grape pomace, and fresh tilled soil.\n Bonanza red wine features flavors of blueberries and blackberries, vanilla and toasted bread, along with aromas and flavors including cocoa cassis. The nose is nuanced with toasty oak imparting a subtle smoked meat character and a taste of unsweetened chocolate and cassis that mix with the warmth of vanilla. Silky tannins and striking smoothness roll across the mouth."
+        }
+    ]
+}
